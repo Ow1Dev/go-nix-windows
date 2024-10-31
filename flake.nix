@@ -72,8 +72,6 @@
 
               doCheck = system == "x86_64-linux";
 
-              CGO_ENABLED = 0;
-
               ldflags = [
                 "-s" # Disable the generation of the DWARF symbol table
               ];
